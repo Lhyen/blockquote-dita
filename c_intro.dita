@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "http://docs.oasis-
+open.org/dita/v1.1/OS/dtd/concept.dtd" []>
+<concept id="c_intro">
+  <title>Introduction to the Blockquote Element</title>
+  <shortdesc>Blockquote is a block-level text styling element for writing in
+  HTML.</shortdesc>
+<prolog>
+<author type="creator">Haiyen Le</author>
+    <copyright>
+      <copyryear year="2012"/>
+      <copyrholder>WRIT 4662W</copyrholder>
+    </copyright>
+</prolog>
+
+<conbody>
+  <p>Blockquote is an element used to denote when a segment of text is a block
+  quotation. In conventional writing, blockquotes are longer excerpts or quotes
+  (usually more than 50 words) of text cited from outside sources of text.</p>
+  <p>Using a blockquote can be beneficial to one's own writing. A quotation can
+  be used as the basis for a writing argument or analysis. When cited properly,
+  blockquotes are seen as credible pieces of evidence.
+  <p>Blockquotes can be a visual element as well. With the use of Cascading
+  Style Sheets or CSS, the appearance of blockquotes can be modified from its
+  default look as an indentation in the text</p>
+</conbody>
