@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/task.dtd">
+<task id="t_quotemarks">
+  <title>How to create large quotation marks in CSS</title>
+  <shortdesc>
+    Quotation marks are a familiar punctuation symbol. Surrounding a blockquote
+    with oversized quotation marks created with CSS makes it more recognizable
+    by users as a quotation, even with just scanning the text.
+  </shortdesc>
+
+  <prolog>
+    <author type="creator">Haiyen Le</author>
+    <copyright>
+      <copyryear year="2015"/>
+      <copyrholder>WRIT 4662W</copyrholder>
+    </copyright>
+  </prolog>
+
+  <taskbody>
+    <steps>
+      <step>Open the CSS file that is linked to your HTML file in the text
+      editor of your choosing.
+      </step>
+      <step>In the style sheet, add this code to a new line:
+        <codeblock>
+        blockquote:before {
+        color: #ccc;
+        content: open-quote;
+        font-size: 4em;
+        line-height: 0.1em;
+        margin-right: 0.20em;
+        vertical-align: -0.4em;
+        font-family: Arial;
+        quotes: "\201C" "\201D";
+        }
+
+        blockquote:after {
+        color: #ccc;
+        content: close-quote;
+        font-size: 4em;
+        line-height: 0.1em;
+        margin-left: 0.20em;
+        vertical-align: -0.4em;
+        font-family: Arial;
+        quotes: "\201C" "\201D";
+        }
+        </codeblock>
+      </step>
+      <step>To preview the styled text in your document, open the HTML file in
+      a web browser.
+      </step>
+    </steps>
+  </task>

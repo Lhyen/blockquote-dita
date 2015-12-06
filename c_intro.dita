@@ -8,19 +8,28 @@ open.org/dita/v1.1/OS/dtd/concept.dtd" []>
 <prolog>
 <author type="creator">Haiyen Le</author>
     <copyright>
-      <copyryear year="2012"/>
+      <copyryear year="2015"/>
       <copyrholder>WRIT 4662W</copyrholder>
     </copyright>
 </prolog>
 
 <conbody>
-  <p>Blockquote is an element used to denote when a segment of text is a block
-  quotation. In conventional writing, blockquotes are longer excerpts or quotes
-  (usually more than 50 words) of text cited from outside sources of text.</p>
-  <p>Using a blockquote can be beneficial to one's own writing. A quotation can
-  be used as the basis for a writing argument or analysis. When cited properly,
-  blockquotes are seen as credible pieces of evidence.
+  <p>&lt;Blockquote&gt; is an element used to denote when a segment of text is a
+  quotation, by starting the blockquoted text on a new line with styling that
+  distinguishes the quoted text from normal text. In conventional writing, a
+  block quotation is a longer excerpt or quotation (usually more than 4 lines) of
+  text cited from an outside source.</p>
+  <p>Using the block quotation can be beneficial to one's own writing. A
+  quotation can be used as the basis for a writing argument or analysis. When
+  cited properly, blockquotes are seen as credible pieces of evidence.
+  <p>Pull quotes are another writing element that can be recreated in HTML for
+  web writing. There is no element specifically for pull quotes, so the
+  blockquote element is used to style them. A pull quote is an excerpt that is
+  lifted from the writing's own text. <p>
+  <p>The benefits of pull quotes are that they emphasize key lines from the text
+  that can attract readers to the writing quickly. They can also highlight main
+  messages or topics from the text.</p>
   <p>Blockquotes can be a visual element as well. With the use of Cascading
   Style Sheets or CSS, the appearance of blockquotes can be modified from its
-  default look as an indentation in the text</p>
+  default look as an indentation in the text.</p>
 </conbody>

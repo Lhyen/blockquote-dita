@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "http://docs.oasis-open.org/
+dita/v1.1/OS/dtd/task.dtd">
+<task id="t_quotemarks">
+  <title>How to create large quotation marks in CSS</title>
+  <shortdesc>
+    A modern form of blockquote styling is to indent the quoted text with a
+    vertical line used as a border on the left. This indicates a quotation
+    without too much decoration, making it ideal for professional documents.
+  </shortdesc>
+  <prolog>
+    <author type="creator">Haiyen Le</author>
+    <copyright>
+      <copyryear year="2015"/>
+      <copyrholder>WRIT 4662W</copyrholder>
+    </copyright>
+  </prolog>
+
+  <step>Open the CSS file that is linked to your HTML file in the text
+  editor of your choosing.
+  </step>
+  <step>In the style sheet, add this code to a new line:
+    <codeblock>
+    blockquote {
+    font: 14px/22px normal helvetica, sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+    padding-left: 15px;
+    border-left: 3px solid #ccc;
+    }
+    </codeblock>
+  </step>
+  <step>Save the CSS file.
+  </step>
+  <step>In your HTML file, check to see that the text meant to be a blockquote
+  is surrounded by the proper opening and closing tags.
+  </step>
+  <step>To preview the styled text in your document, open the HTML file in
+  a web browser.
+  </step>
