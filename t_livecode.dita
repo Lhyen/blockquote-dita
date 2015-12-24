@@ -34,7 +34,7 @@ dita/v1.1/OS/dtd/task.dtd">
       <step>Either log in with an existing account, or create an account and
       fill out the necessary fields.
       </step>
-      <step>Create a new pen, which will direct you to the the live editor.
+      <step>Create a new Pen, which will direct you to the the live editor.
       </step>
       <step>In the HTML field, create an instance of blockquote. This can be done
       either by copying from an HTML document or simply typing placeholder text
@@ -42,6 +42,9 @@ dita/v1.1/OS/dtd/task.dtd">
       </step>
       <step>In the CSS field, paste in the code you wish you to preview.
       </step>
-      <step>Inspect the preview window to check output of code.  
+      <step>Inspect the preview window to check output of code.
+      </step>
+      <step>Make edits to code with the CSS field if neessary.
+      </step>
     </steps>
   </taskbody>
