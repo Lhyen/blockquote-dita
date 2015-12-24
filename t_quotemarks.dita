@@ -17,11 +17,16 @@
   </prolog>
 
   <taskbody>
+    <prereq>
+      <p>Ensure that you have a working HTML document with a properly linked CSS
+      file. The HTML document should have the blockquote element in use at
+      least once.</p>
+    </prereq>
     <steps>
       <step>Open the CSS file that is linked to your HTML file in the text
-      editor of your choosing.
+      editor program of your choosing.
       </step>
-      <step>In the style sheet, add this code to a new line:
+      <step>In the style sheet, add this code on a new line:
         <codeblock>
         blockquote:before {
         color: #ccc;
@@ -46,8 +51,39 @@
         }
         </codeblock>
       </step>
+      <step>Save the CSS file.
+      </step>
       <step>To preview the styled text in your document, open the HTML file in
       a web browser.
       </step>
+      <step>Due to other CSS styling that may be in effect, check that the
+        previewed blockquote output:
+        <ul>
+          <li>Appears distinctively from the body text.</li>
+          <li>Is readable against the background.</li>
+          <li>Displays curved quotation marks at the beginning and end of the
+          quoted text.</li>
+          <li>Does not show any visible overlap of components.</li>
+      </step>
+      <step>If the output does not look meet those guidelines or the apearance
+        is not to your satisfication:
+        <substeps>
+          <substep>Edit values within the blockquote selector of the
+          CSS file.
+          <info>It is reccommended that you limit edits to one or two values at
+          a time so that the changes are easier to manage.
+          </substep>
+          <substep>Save the CSS file.
+          </substep>
+          <substep>Preview the HTML document again.
+          </substep>
+          <substep>Repeat these steps if necessary.
+          </substeps>
+        <substeps>
+      </step>
     </steps>
+    <result>
+      <p>The HTML output will display blockquotes in the document with surrounding
+      quotation marks according to the linked CSS.</p>
+    </result>
   </task>

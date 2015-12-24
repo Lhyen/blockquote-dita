@@ -3,7 +3,7 @@
 open.org/dita/v1.1/OS/dtd/concept.dtd" []>
 <concept id="c_intro">
   <title>Introduction to the Blockquote Element</title>
-  <shortdesc>Blockquote is a block-level text styling element for writing in
+  <shortdesc>Blockquote is a block-level text element for writing in
   HTML.</shortdesc>
 <prolog>
 <author type="creator">Haiyen Le</author>

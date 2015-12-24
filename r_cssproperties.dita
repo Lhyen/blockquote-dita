@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Task//EN" "http://docs.oasis-open.org/
+dita/v1.1/OS/dtd/reference.dtd">
+<reference id="r_cssproperties">
+  <title>Common properties used in blockquote CSS</title>
+  <shortdesc>
+    Adjust properties of the blockquote selector in CSS to change the appearance
+    of blockquote output in linked HTML documents. This is done through
+    declarations to selectors that define properties and their values.
+  </shortdesc>
+  <prolog>
+    <author type="creator">Haiyen Le</author>
+    <copyright>
+      <copyryear year="2015"/>
+      <copyrholder>WRIT 4662W</copyrholder>
+    </copyright>
+  </prolog>
+  <refbody>
+    <p>These are common properties that are declared in CSS to change blockquote:
+    </p>
+    <simpletable>
+      <sthead>
+        <stentry>Property
+        </stentry>
+        <stentry>What is affected
+        </stentry>
+      </sthead>
+      <strow>
+        <stentry>font-size
+        </stentry>
+        <stentry>font size
+        </stentry>
+      </strow>
+      <strow>
+        <stentry>color
+        </stentry>
+        <stentry>font color
+        </stentry>
+      </strow>
+      <strow>
+        <stentry>line-height
+        </stentry>
+        <stentry>spacing between lines of text
+        </stentry>
+      </strow>
+      <strow>
+        <stentry>margin(-top,-left,-right,-bottom)
+        </stentry>
+        <stentry>spacing around or on specified sides of element
+        </stentry>
+      </strow>
+      <strow>
+        <stentry>content
+        </stentry>
+        <stentry>content present with every instance of element
+        </stentry>
+      </strow>
+      <strow>
+        <stentry>border(-top,-left,-right)
+        </stentry>
+        <stentry>border around or on specified sides of element
+        </stentry>
+      </strow>
+    </simpletable>
+  </refbody>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "http://docs.oasis-open.org/
+dita/v1.1/OS/dtd/task.dtd">
+<task id="t_livecode">
+  <title>Preview code with a live text editor</title>
+  <shortdesc>
+    To streamline the process of checking the output of smaller segments of code,
+    an online text editor for HTML and CSS that automatically generates the
+    visual output.
+  </shortdesc>
+  <prolog>
+    <author type="creator">Haiyen Le</author>
+    <copyright>
+      <copyryear year="2015"/>
+      <copyrholder>WRIT 4662W</copyrholder>
+    </copyright>
+  </prolog>
+
+  <taskbody>
+    <prereq>
+      <p>A stable internet connection is needed to use a live text editor.
+      </p>
+      <p>The user should also have some CSS code for blockquote ready to copy
+      and paste, which can bemade by themselves, copied from another source,
+      or a combination of both.
+      </p>
+    </prereq>
+    <steps>
+      <step>In your web browser, go to the address codepen.io.
+        <info>There are other online text editors that may work similarly. For
+        this task, CodePen is used for simplicity.
+        </info>
+      </step>
+      <step>Either log in with an existing account, or create an account and
+      fill out the necessary fields.
+      </step>
+      <step>Create a new pen, which will direct you to the the live editor.
+      </step>
+      <step>In the HTML field, create an instance of blockquote. This can be done
+      either by copying from an HTML document or simply typing placeholder text
+      surrounded by the blockquote tags
+      </step>
+      <step>In the CSS field, paste in the code you wish you to preview.
+      </step>
+      <step>Inspect the preview window to check output of code.  
+    </steps>
+  </taskbody>
